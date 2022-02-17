@@ -1,0 +1,6 @@
+# Distribution / packaging
+poetry.lock
+dist/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/

@@ -2,7 +2,7 @@ import logging
 
 import pytest
 
-from logging_context import LoggingContext, LoggingContextFilter
+from simple_logging_context import LoggingContext, LoggingContextFilter
 
 @pytest.fixture
 def logger():

@@ -35,11 +35,7 @@ class LoggingVarsContext:
 
         try:
             current_context = self.logging_context_var.get()
-            return reduce(
-                dict_update,
-                current_context,
-                {"logging_context": len(current_context)},
-            )
+            return reduce(dict_update, current_context, {})
         except LookupError:
             return {"logging_context": 0}
 
